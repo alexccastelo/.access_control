@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    /* Define uma largura fixa para o container */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    /* Organiza os filhos do formulário em coluna */
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    /* Espaçamento abaixo do rótulo */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Espaçamento abaixo de cada input e botão */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    /* Calcula a largura para incluir o padding e a borda */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cadastro-link {
+    margin-top: 10px;
+    display: block;
+    /* Faz o link se comportar como um bloco, ocupando a linha inteira */
+}
+
+.cadastro-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}
+.mensagem.sucesso {
+    color: #28a745;
+    /* Verde para sucesso */
+    margin-top: 20px;
+}
+
+.mensagem.erro {
+    color: #dc3545;
+    /* Vermelho para erro */
+    margin-top: 20px;
+}
+.painel-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.menu ul li a:hover {
+    color: #0056b3;
+}
