@@ -62,6 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
 <head>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/s2b.ico" />
     <title>Editar Usuário</title>
 </head>
 

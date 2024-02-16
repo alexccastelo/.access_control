@@ -27,6 +27,7 @@ try {
 <head>
     <!-- cabeçalho da página -->
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/s2b.ico" />
     <title>Lista de Usuários</title>
 </head>
 

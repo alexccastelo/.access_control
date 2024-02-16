@@ -46,6 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <!-- cabeçalho da página -->
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/s2b.ico" />
     <title>Cadastro de Usuários</title>
 </head>
 
